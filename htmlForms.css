@@ -1,0 +1,31 @@
+#bodie {
+  border: 5px solid white;
+  padding:35px;
+  margin:12px;
+  position: absolute;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+.largeOne {
+  font-color: darkslategray;
+  background-color: darksalmon;
+  border:
+  height: 45px;
+  width: 215px;
+  padding: 6px;
+
+}
+.largeOne2 {
+  font-color: darkslategray;
+  background-color: darksalmon;
+  border:
+  height: 45px;
+  width: 615px;
+  padding: 20px;
+  margin: 15px;
+
+}
+#line {
+  padding-bottom: 5px;
+}
