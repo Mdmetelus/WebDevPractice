@@ -1,0 +1,24 @@
+.formDiv {
+  border: 5px solid tan;
+  padding: 15px;
+  margin: 30px;
+  width: 600px;
+}
+
+.smilie {
+  font: 30px;
+}
+#parent {
+  /*border: 6px;*/
+  padding: 10px;
+  width: 850px;
+  margin: 12px;
+  border: 8px solid darkred;
+}
+
+.formDiv2 {
+  border: 5px solid orange;
+  padding: 15px;
+  margin: 30px;
+  width: 600px;
+}

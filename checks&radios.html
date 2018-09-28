@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Input Practice</title>
+    <link rel="stylesheet" type="text/css" href="checks&radios.css">
     <style media="screen">
 
     </style>
@@ -12,9 +13,19 @@
 
   </head>
   <body>
-    <h1>Favorite Sport</h1>
+    <div id="parent">
 
-    <form class="" action="index.html" method="post">
+
+      <div class="formDiv2">
+
+
+
+    <h1>Favorite Sport</h1>
+    </div>
+
+    <div class="formDiv">
+
+    <form class="" action="index.html" method="post" >
 
 
     <h4>Do you prefer Football or Basketball?</h4>
@@ -22,6 +33,13 @@
       <input type="radio" id="basketball"name="sport" value="basketball">
       <label for="football">Football:</label>
       <input type="radio" id="football"name="sport" value="football">
+
+
+      </div>
+
+
+      <div class="formDiv2">
+
 
       <h4>What is your Favorite Color?</h4>
       <select class="" name="color">
@@ -32,17 +50,28 @@
         <option value="">Black</option>
 
       </select>
+      </div>
+
+
+      <div class="formDiv">
+
 
       <h4>Whats your Current Mood?</h4>
-      <select class="" name="mood">
-        <option value="Excited"> :)) </option>
-        <option value="Happy"> :) </option>
-        <option value="Neutral"> :| </option>
-        <option value="Sad"> :( </option>
+      <select class="smilie" name="mood">
+        <option value="Excited"> <span class="smilie"> :)) </span></option>
+        <option value="Happy"><span class="smilie"> :) </span></option>
+        <option value="Neutral"><span class="smilie"> :| </span></option>
+        <option value="Sad"><span class="smilie"> :( </span></option>
 
       </select>
 
       </form>
+
+      </div>
+
+      <div class="formDiv2">
+
+
 
       <form class="" action="index.html" method="post">
 
@@ -60,8 +89,11 @@
 
     </form>
 
+    </div>
 
-    <form class="" action="index.html" method="post">
+    <div class="">
+
+    <form class="formDiv" action="index.html" method="post">
 
 
       <h6>Do you have another sport that tyou prefer most?</h6>
@@ -69,5 +101,10 @@
       <button type="button" name="button">Submit Answer</button>
 
     </form>
+
+
+
+    </div>
+  </div>
   </body>
     </html>
