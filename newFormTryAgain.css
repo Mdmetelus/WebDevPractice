@@ -1,0 +1,38 @@
+#bodie {
+  border: 5px solid steelblue;
+  padding:15px;
+  margin:12px;
+  position: absolute;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 400px;
+  overflow: scroll;
+  background-color: lightsteelblue;
+
+}
+.largeOne {
+  font-color: darkslategray;
+  background-color: darksalmon;
+  border: 2px solid sandybrown;
+  height: 45px;
+  width: 320px;
+  padding: 6px;
+
+}
+.largeOne2 {
+  font-color: darkslategray;
+  background-color: darksalmon;
+  border:
+  height: 45px;
+  width: 615px;
+  padding: 20px;
+  margin: 15px;
+
+}
+#line {
+  padding-bottom: 5px;
+}
+p {
+  flex-direction: column;
+  justify-content: space-around;
+}
