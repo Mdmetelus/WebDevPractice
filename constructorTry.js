@@ -1,7 +1,7 @@
 // Constructor function.
-const BooksType = function (pgs,bookTitle, author, numOfBooks) {
+const BooksType = function (pages,bookTitle, author, numOfBooks) {
   this.checkout = false;
-  this.pgs = pgs;
+  this.pages = pgs;
   this.bookTitle = bookTitle;
   this.author = author;
   this.grade = grade;
@@ -23,3 +23,12 @@ const mathBook = new BooksType(655, "Calculus", "Professer SmartyPatz",5);
 const comicBook = new BooksType(36,,"Batman 40th", "Jack Curby", 1);
 const scienceBook = new BooksType();
 const pictureBook = new BooksType(145, "Street Photography", "Sam Smith", 2);
+
+
+//iterating through the object
+
+for(let key in fictonBook){
+  console.log(key);
+  //or console.log(fictionBook[key]);
+  //or console.log(key, fictionBook[key])
+}
