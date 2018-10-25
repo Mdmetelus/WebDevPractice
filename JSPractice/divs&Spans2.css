@@ -1,44 +1,69 @@
 .spanClass {
-  font-weight: bold;
-  font-style: italic;
+    font-weight: bold;
+    font-style: italic;
 }
 
-.gold{
-  font-weight: bold;
-  border: 1px solid gainsboro;
-  padding: 12px;
-  width: 195px ;
-  height: 45px;
-
-
+.gold {
+    font-weight: bold;
+    border: 1px solid gainsboro;
+    padding: 12px;
+    width: 195px;
+    height: 45px;
 }
 
 #silver {
-  border: 1px solid gainsboro;
-  align-self: stretch;
-  width: 150px;
-  height: 45px;
-  padding: 7px;
-
-
+    border: 1px solid gainsboro;
+    align-self: stretch;
+    width: 150px;
+    height: 45px;
+    padding: 7px;
 }
 
-.big{
-  border: 15px solid moccasin;
-  width: 850px;
-  padding: 20px;
-  padding-color: White;
-  margin-coloring: lightsteelblue;
-  margin: 30px;
-
-
-
+.big {
+    border: 15px solid moccasin;
+    width: 850px;
+    padding: 20px;
+    padding-color: White;
+    margin-coloring: lightsteelblue;
+    margin: 30px;
 }
 
 .little {
-  border: 7px solid linen;
-  width 600px;
-  padding: 20px;
-  margin: 12px;
-  align-self: center;
+    border: 7px solid linen;
+    width 600px;
+    padding: 20px;
+    margin: 12px;
+    align-self: center;
+    max-height: 235px;
+}
+
+.littlevh {
+    border: 7px solid linen;
+    width 600px;
+    padding: 20px;
+    margin: 12px;
+    overflow: hidden;
+    align-self: center;
+    max-height: 40px;
+    /* textContent: */
+}
+
+.littlevh-open {
+    height: auto !important;
+    overflow: visible;
+    max-height: 700px;
+}
+
+
+/* position: absolute; */
+
+body .big .button {
+    font-weight: bold;
+    border: 1px solid gainsboro;
+    padding: 12px;
+    width: 195px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 16px;
+    /* position: absolute; */
 }
