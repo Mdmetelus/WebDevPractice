@@ -1,0 +1,44 @@
+.spanClass {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.gold{
+  font-weight: bold;
+  border: 1px solid gainsboro;
+  padding: 12px;
+  width: 195px ;
+  height: 45px;
+
+
+}
+
+#silver {
+  border: 1px solid gainsboro;
+  align-self: stretch;
+  width: 150px;
+  height: 45px;
+  padding: 7px;
+
+
+}
+
+.big{
+  border: 15px solid moccasin;
+  width: 850px;
+  padding: 20px;
+  padding-color: White;
+  margin-coloring: lightsteelblue;
+  margin: 30px;
+
+
+
+}
+
+.little {
+  border: 7px solid linen;
+  width 600px;
+  padding: 20px;
+  margin: 12px;
+  align-self: center;
+}
